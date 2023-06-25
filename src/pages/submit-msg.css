@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-msg-main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #b4c987;
+    color: #5a6443;
+    gap: 10px;
+}
+
+.submit-msg-main img{
+    width: 170px;
+    align-self: center;
+
+}
+
+.submit-msg-main .submit-msg-txt{
+    font-size: 20px;
+}
+
+.submit-msg-main .submit-msg-btn{
+    text-decoration: none;
+    background-color: #5a6443;
+    color: #b4c987;
+    width: 90px;
+    padding: 2px;
+    align-self: center;
+    margin-top: 15px;
+}

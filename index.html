@@ -195,14 +195,17 @@
         </section>
         <section class="quotation">
             <p>Entre em contato conosco hoje mesmo e descubra como podemos fazer a diferença para a sua empresa. Juntos, vamos construir um futuro mais sustentável e lucrativo!</p>
-            <form form action="./src/php/send-email.php" method="POST" class="quotation-form">
+            <form form action="https://api.staticforms.xyz/submit" method="POST" class="quotation-form">
+                <input type="hidden" name="accessKey" value="63fdf955-32cb-4906-9b16-8779325eea4e">
                 
-                <input type="text" name="name" id="name" placeholder="Digite seu nome">
-                <input type="text" name="surname" id="surname" placeholder="Digite seu sobrenome">
-                <input type="text" name="company" id="company" placeholder="Digite o nome de sua empresa">
-                <input type="text" name="email" id="email" placeholder="Digite seu email">
-                <input type="text" name="message" id="message" placeholder="Digite sua mensagem" autofocus="true">
-               <button class="btn-submit" type="submit">Enviar</button>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                <input type="text" name="surname" id="surname" placeholder="Digite seu sobrenome" required>
+                <input type="text" name="company" id="company" placeholder="Digite o nome de sua empresa" required>
+                <input type="text" name="email" id="email" placeholder="Digite seu email (email@email.com)" required>
+                <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone (XX)XXXXX-XXXX" required>
+                <textarea type="text" name="message" id="message" placeholder="Digite sua mensagem" autofocus="true" required></textarea>
+                <button class="btn-submit" type="submit">Enviar</button>
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/pages/submit-msg.html">
             </form>
 
         </section>
