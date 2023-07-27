@@ -13,19 +13,19 @@ function nextSlide(){
 
 })
 
-//script serviços
+// //script serviços
 
-const arrows = document.getElementsByClassName("img-arrow")
+// const arrows = document.getElementsByClassName("img-arrow")
 
-for (let i = 0; i < arrows.length; i++){
-    arrows[i].addEventListener('click', function(){
-        var service = this.parentNode
-        var serviceText = service.querySelector(".service-text")
+// for (let i = 0; i < arrows.length; i++){
+//     arrows[i].addEventListener('click', function(){
+//         var service = this.parentNode
+//         var serviceText = service.querySelector(".service-text")
 
-        if(serviceText.style.display === "none"){
-            serviceText.style.display = "block"
-        }else{
-            serviceText.style.display = "none"
-    }
-    })
-}
+//         if(serviceText.style.display === "none"){
+//             serviceText.style.display = "block"
+//         }else{
+//             serviceText.style.display = "none"
+//     }
+//     })
+// }
