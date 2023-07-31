@@ -120,7 +120,7 @@
     justify-content: center;
     align-items: flex-start;
     text-align: justify;
-    border: dotted 3px #2d3221;
+    border: dotted 3px #1d2015;
     padding: 15px;
     border-radius: 20px;
     margin-bottom: 5px;
@@ -129,12 +129,12 @@
 
 .about .about-text h3{
     font-size: 16px;
-    border-bottom: #2d3221 3px solid ;
+    border-bottom: #1d2015 3px solid ;
     width: 100px;
     font-weight: 500;
     margin-top: 10px;
     text-align: start;
-    color: #2d3221;
+    color: #1d2015;
 }
 
 .about .about-text p{
@@ -485,6 +485,10 @@ footer .btn-whatsapp svg{
     .about{
         padding: 20px 0;
         gap: 10px;
+    }
+
+    .about .about-text p{
+        font-size: 15px;
     }
 
     .services-container{
