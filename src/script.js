@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function(event){
     var carouselContainers = document.querySelectorAll(".carousel-container")
     var currentSlide = 0
-    var slideInterval = setInterval(nextSlide, 2000)
+    var slideInterval = setInterval(nextSlide, 2700)
 
 function nextSlide(){
     carouselContainers[currentSlide].classList.remove("active")
